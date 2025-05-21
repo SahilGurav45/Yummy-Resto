@@ -63,8 +63,8 @@ const Footer = () => {
 
 
 
-<div class="whatsapp_box" style={{height:'43px',width:'50px',backgroundColor:'green',position:'fixed',right:'13px',bottom:'70px',borderRadius:'50%'}}>
-        <a href="https://wa.link/tjffch"> <i class="bi bi-whatsapp"></i></a>
+<div className="whatsapp_box" style={{height:'43px',width:'50px',backgroundColor:'green',position:'fixed',right:'13px',bottom:'70px',borderRadius:'50%'}}>
+        <a href="https://wa.link/tjffch"> <i className="bi bi-whatsapp"></i></a>
 
       </div>
 

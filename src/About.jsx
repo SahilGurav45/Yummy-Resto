@@ -46,9 +46,9 @@ const About = () => {
                   magna aliqua.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                  <li><i className="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                  <li><i className="bi bi-check-circle-fill"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                  <li><i className="bi bi-check-circle-fill"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
                 </ul>
                 <p>
                   Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
@@ -73,7 +73,7 @@ const About = () => {
 
 </section>
 
-<section  id="why-us" class="why-us section light-background">
+<section  id="why-us" className="why-us section light-background">
 
 
 <div className="container">
@@ -109,7 +109,7 @@ const About = () => {
 
         <div className="col-xl-4" data-aos="fade-up" data-aos-delay="300">
           <div className="icon-box d-flex flex-column justify-content-center align-items-center" style={{backgroundColor:'#ffffff',paddingBottom:'80px',paddingLeft:'6px'}}>
-      <s>   </s>      <i class="bi bi-gem"></i>
+      <s>   </s>      <i className="bi bi-gem"></i>
             <h4 style={{color:'#CE1212'}} >Ullamco laboris ladore lore pan</h4>
             <p style={{color:'#797979'}}>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
           </div>
