@@ -1,0 +1,26 @@
+/* Dropdown fixes for Bootstrap + React */
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  min-width: 180px;
+  display: none;
+  z-index: 1000;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
+}
